@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+     <title>Indesign</title>
+</head>
+<body>
+     <video id="desktop" autoplay muted loop>
+          <source src="Vids/desktop.mp4" style="width: 100vw;">
+     </video>
+
+     <video id="mobile" autoplay loop muted>
+          <source src="Vids/mobile.mp4" style="width: 100%;">
+     </video>
+
+     <div class="logo-wrapper">
+          <img src="Images/logo.png">
+     </div>
+
+     <div class="nav-wrapper">
+          <a href="#">Home</a>
+          <a href="#">Gallery</a>
+          <a href="#">Plans</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact us</a>
+
+     </div>
+
+     <div class="icon-wrapper">
+          <a href="#" class="fa fa-bars"></a>
+     </div>
+
+     <div class="content-wrapper">
+          <h1>Get A Complete House Make Over By Our Expert Designers</h1>
+          <p>Lorem ipsum dolor dipisicing  Animi assumenda, aperiam impedit nostrum accusamus dolore perspiciatis iure reprehenderit atque quod. ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum neque quidem eos sequi deserunt, obcaecati nobis itaque recusandae sunt dicta vero reiciendis autem praesentium, veritatis, repellendus consequuntur minima est. Quis dolore quos natus maiores blanditiis? Odit ducimus, cupiditate iure possimus, illo dolore minus deleniti magni voluptatum tempore consequuntur voluptas?</p>
+          <p id="p2">Check Out Our <a href="#" style="text-decoration: none; color: white;">Plans</a> for some amazing Deals!</p>
+     </div>
+     
+</body>
+<script src="js/jquery-3.6.0.js"></script>
+<script>
+     $(document).ready(function(){
+          $('.icon-wrapper').click(function(){
+               $('.nav-wrapper').fadeToggle();
+          });
+
+     });
+</script>
+</html>
